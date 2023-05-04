@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 
 //Routes
 app.use("/fruits", fruitsController);
-app.use("/fruits", vegetablessController);
+// app.use("/fruits", vegetablessController);
 
 app.get("/vegetables", async (req, res) => {
   console.log("Index Controller Func. running...");
